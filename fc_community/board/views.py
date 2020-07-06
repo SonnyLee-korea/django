@@ -43,3 +43,7 @@ def board_write(request):
     else:
         form = Boardform()
     return render(request,'board_write.html',{'form':form})
+
+
+
+        
